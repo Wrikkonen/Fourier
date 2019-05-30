@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		832FC8CA229F60C100C183C6 /* Fourier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fourier; sourceTree = BUILT_PRODUCTS_DIR; };
 		832FC8CD229F60C100C183C6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		832FC8D5229F60E500C183C6 /* input.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = input.raw; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				832FC8CC229F60C100C183C6 /* Fourier */,
+				832FC8D4229F60D000C183C6 /* Data */,
 				832FC8CB229F60C100C183C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +62,14 @@
 				832FC8CD229F60C100C183C6 /* main.c */,
 			);
 			path = Fourier;
+			sourceTree = "<group>";
+		};
+		832FC8D4229F60D000C183C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				832FC8D5229F60E500C183C6 /* input.raw */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
